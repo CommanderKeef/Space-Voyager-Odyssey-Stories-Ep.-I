@@ -1,5 +1,33 @@
-﻿title: Corpse
+﻿title: Scientist
 tags:
 ---
-Player: ...who is this? I thought this planet was supposed to be uninhabited...
+<<if $visited is true>>
+    Scientist: Stay safe out there sir!!
+    Player: Thanks, you stay safe in here. And don't touch any of the machines!
+    Scientist: Will do! I mean I wont!
+    Player: Wait what?
+    Scientist: Bye!
+Player: Who the hell are you and what the hell is this?!?
+Scientist: Woah take it easy there buddy don't shoot please!!
+Scientist: My name is Arthur, I'm just a scientist who was working here none of this was my idea I promise! Oh god...
+Player: You take it easy, I'm not going to shoot you... yet. Explain what's been going on here right now in detail or I might, however.
+Scientist: Alright ok man! Holy shit...
+Scientist: So here's the deal - as I'm sure you've managed to figure out this is a manufacturing facility for experimental autonomous combat units.
+Scientist: I'm part of a highly confidential R&D firm named "Black Zenon". Our focus is uh... less contemporary than standard SOL Corp research units.
+Scientist: I've been hiding out here ever since the uh... incident.
+Player: What incident? I'm guessing you're referring to all the carnage scattered outside.
+Scientist: Yeah so... it seems like the AI developed its own protocols and went completely rogue, engaging other scientists and team members!
+-> You guys kinda had that coming...
+    Scientist: I already told you none of this was my idea!! Have some respect for the dead, you monster!
+    Player: Actually you're right, my bad. Sorry for your losses.
+-> That's fucked up... sorry about the rest of your team.
+    Scientist: Thank you!
+Scientist: It's alright now... I just want to get home to my family.
+Player: I feel you there, this place is all kinds of fucked up.
+Scientist: So you got a ship right? Can you please help me get off this rock?
+Player: Sorry, my ship's damaged from a rough landing so it looks like we're both stranded here until I get it fixed.
+Scientist: Fuck! Wait hold on a sec... I've seen images from elsewhere on the planet taken by our scouting team and there was a few ships laying in various states of disrepair. Maybe you could salvage what you need from one of those?
+Player: That's actually a pretty solid plan. Thanks for the heads up.
+<<set $visited to true>>
+<<endif>>
 ===
