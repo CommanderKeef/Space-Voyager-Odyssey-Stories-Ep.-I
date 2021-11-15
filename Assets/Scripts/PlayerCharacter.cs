@@ -61,7 +61,7 @@ namespace Yarn.Unity.Example {
 
             // Move the player, clamping them to within the boundaries 
             // of the level.
-            var movement = Input.GetAxis("Horizontal");
+            /*var movement = Input.GetAxis("Horizontal");
             movement += movementFromButtons;
             movement *= (moveSpeed * Time.deltaTime);
 
@@ -69,10 +69,10 @@ namespace Yarn.Unity.Example {
             newPosition.x += movement;
             newPosition.x = Mathf.Clamp(newPosition.x, minPosition, maxPosition);
 
-            transform.position = newPosition;
+            transform.position = newPosition;*/
 
             // Detect if we want to start a conversation
-            if (Input.GetKeyDown(KeyCode.Space)) {
+            if (Input.GetKeyDown(KeyCode.E)) {
                 CheckForNearbyNPC ();
             }
         }

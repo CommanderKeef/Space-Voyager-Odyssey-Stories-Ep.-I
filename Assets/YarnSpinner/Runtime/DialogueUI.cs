@@ -345,7 +345,6 @@ namespace Yarn.Unity {
             int i = 0;
 
             waitingForOptionSelection = true;
-
             currentOptionSelectionHandler = selectOption;
             
             foreach (var optionString in optionsCollection.Options) {
