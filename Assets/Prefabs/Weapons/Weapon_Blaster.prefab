@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6869492119923080581}
   - component: {fileID: 7460208762071998508}
   - component: {fileID: 2889961982722672015}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,12 +26,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397158335996007869}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0030000021, y: -1.0097872, z: 0.004000015}
-  m_LocalScale: {x: 0.20582236, y: 0.20582235, z: 0.20582233}
+  m_LocalRotation: {x: -0.6287642, y: 0.323505, z: -0.323505, w: 0.6287644}
+  m_LocalPosition: {x: 0.00089999934, y: 0.13291572, z: 0.0026129368}
+  m_LocalScale: {x: 0.015831016, y: 0.0015476239, z: 0.015831014}
   m_Children: []
-  m_Father: {fileID: 2183809246739713062}
-  m_RootOrder: 0
+  m_Father: {fileID: 825220459589154871}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6869492119923080581
 MeshFilter:
@@ -106,7 +106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4917782838448717432}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AimPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,12 +120,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861279283957842033}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.4195, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2225486910712267856}
-  m_RootOrder: 2
+  m_Father: {fileID: 825220459589154871}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1071509486819114361
 GameObject:
@@ -136,7 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7951103439727585977}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PistonSocket (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 825220459589154871}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GunRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,6 +187,11 @@ Transform:
   m_Children:
   - {fileID: 6867164317952318004}
   - {fileID: 2402348349052558866}
+  - {fileID: 2183809246739713062}
+  - {fileID: 7208888082612810680}
+  - {fileID: 8334323006752503713}
+  - {fileID: 4917782838448717432}
+  - {fileID: 1807021712715984432}
   m_Father: {fileID: 2225486910712267856}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -199,7 +204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7790229181078538301}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PistonSocket (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +240,7 @@ GameObject:
   - component: {fileID: 555188489432107117}
   - component: {fileID: 8090847488450120274}
   - component: {fileID: 4551333946757366987}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Weapon_Blaster
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -254,9 +259,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 825220459589154871}
-  - {fileID: 8334323006752503713}
-  - {fileID: 4917782838448717432}
-  - {fileID: 1807021712715984432}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -541,7 +543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2404975934069440899}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PistonSocket (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8916271939983209025}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Transform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -601,7 +603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 226946101372664820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PistonSocket (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -632,7 +634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2183809246739713062}
   - component: {fileID: 4022838298702817008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -646,13 +648,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6461799534322098525}
-  m_LocalRotation: {x: -0.0000011920929, y: 0.45750517, z: -0.00000067055225, w: 0.889207}
-  m_LocalPosition: {x: -0.0063851164, y: 1.8087654, z: 0.0053897887}
-  m_LocalScale: {x: 1.2773612, y: 0.69108707, z: 1.277361}
-  m_Children:
-  - {fileID: 7208888082612810680}
-  m_Father: {fileID: 2402348349052558866}
-  m_RootOrder: 0
+  m_LocalRotation: {x: -0.6287642, y: 0.323505, z: -0.323505, w: 0.6287644}
+  m_LocalPosition: {x: 0.0005155221, y: 0.1329246, z: -0.0049798777}
+  m_LocalScale: {x: 0.07691592, y: 0.0075192214, z: 0.07691591}
+  m_Children: []
+  m_Father: {fileID: 825220459589154871}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &4022838298702817008
 Light:
@@ -725,7 +726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6867164317952318004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WeaponMesh_Pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +760,7 @@ GameObject:
   - component: {fileID: 6867164318176806227}
   - component: {fileID: 6867164318177937299}
   - component: {fileID: 7766089067779526315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Primary_Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13223,7 +13224,7 @@ GameObject:
   - component: {fileID: 6867164318176036217}
   - component: {fileID: 6867164318176806233}
   - component: {fileID: 6867164318177937305}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Primary_Weapon_Front_Piece_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13303,7 +13304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6867164318176036221}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Weapon_Primary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13346,7 +13347,7 @@ GameObject:
   - component: {fileID: 6867164318176036223}
   - component: {fileID: 6867164318176806239}
   - component: {fileID: 6867164318177937311}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Primary_Weapon_Front_Piece_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13429,7 +13430,7 @@ GameObject:
   - component: {fileID: 3768604851136570278}
   - component: {fileID: 8491195115407473257}
   - component: {fileID: 5677748503670600258}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Primary_Weapon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14625,7 +14626,7 @@ GameObject:
   - component: {fileID: 5160217733854416001}
   - component: {fileID: 3004713082995777672}
   - component: {fileID: 4208134481465211786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14723,7 +14724,7 @@ GameObject:
   - component: {fileID: 1983211415935328362}
   - component: {fileID: 5543810300303364580}
   - component: {fileID: 9108101871536356469}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: EjectPort
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17092,7 +17093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6059121004982191332}
   - component: {fileID: 4829965164019900756}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17189,7 +17190,7 @@ GameObject:
   - component: {fileID: 7901455550200105929}
   - component: {fileID: 7097124577096551555}
   - component: {fileID: 3576292772102858666}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17208,8 +17209,8 @@ Transform:
   m_LocalScale: {x: 0.6308862, y: 2.1689146, z: 0.5677976}
   m_Children:
   - {fileID: 6059121004982191332}
-  m_Father: {fileID: 2225486910712267856}
-  m_RootOrder: 3
+  m_Father: {fileID: 825220459589154871}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 90}
 --- !u!114 &4427137728911679014
 MonoBehaviour:
@@ -18975,7 +18976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8334323006752503713}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GunMuzzle
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -18993,8 +18994,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.124, z: 0.4977}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2225486910712267856}
-  m_RootOrder: 1
+  m_Father: {fileID: 825220459589154871}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9016154785631547017
 GameObject:
@@ -19009,7 +19010,7 @@ GameObject:
   - component: {fileID: 8716368680362226848}
   - component: {fileID: 6418137133276814434}
   - component: {fileID: 3837033770359289690}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Loader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19026,8 +19027,7 @@ Transform:
   m_LocalRotation: {x: -0.70710576, y: -0, z: -0, w: 0.70710784}
   m_LocalPosition: {x: 0.0009, y: 0.1326, z: 0.0147}
   m_LocalScale: {x: 0.0602147, y: 0.010880282, z: 0.0602147}
-  m_Children:
-  - {fileID: 2183809246739713062}
+  m_Children: []
   m_Father: {fileID: 825220459589154871}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -22892,7 +22892,7 @@ PrefabInstance:
     - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21c8bd050f24da54285f8a3987ee6253, type: 3}
